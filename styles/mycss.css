@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(90deg, #2a2b2c 0%, rgb(106, 132, 172) 107%);
+    font-size: 14px;
+}
+p {
+    color: aliceblue;
+}
+a {
+    text-decoration: none;
+    color:aliceblue
+}
+a:hover {
+    color: aliceblue;
+}
+.sidebar>p>a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.nav-link {
+    color:aliceblue
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(171, 173, 173);
+
+}
+
+.navbar-brand img {
+    width: 40px ;
+}
+
+.navbar-toggler {
+    background-color: rgb(88, 88, 88);
+}
+
+.card {
+    box-shadow: 5px 5px 10px 1px #000;
+    background: linear-gradient(100deg, #586379 0%, rgb(117, 153, 194) 107%);
+    color: aliceblue;
+}
+
+header {
+    background: linear-gradient(90deg, #1f1e1e 0%, rgb(106, 132, 172) 107%);
+}
+
+.sidebar {
+    color:azure;
+    background: linear-gradient(100deg, #586379 0%, rgb(117, 153, 194) 107%);
+} 
+
+.slide-text {
+    color: aliceblue;
+    margin: auto auto;
+    padding-right: 100px;
+    padding-left: 40px;
+    font-size: 15px;
+}
+.footer-text 
+{
+    color: aliceblue;
+    margin: auto auto;
+}
+footer ,
+.btn-outline-primary{
+    background: linear-gradient(100deg, #586379 0%, rgb(70, 88, 109) 107%);
+
+}
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim  {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
